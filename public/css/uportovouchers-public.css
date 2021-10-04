@@ -1,0 +1,162 @@
+ /* Voucher */
+
+body.single-vouchers {background-image: none;}
+body.single-vouchers .site-header,body.single-vouchers .titlebar  { display:none;}
+
+.vouchercontainer {
+    margin-bottom:20px;
+}
+
+.voucher-sideb > .vc_column-inner > .wpb_wrapper {
+    background:-webkit-linear-gradient(90deg, rgb(242, 183, 0) 0.318471%, rgb(236, 102, 91) 100%);
+}
+
+.voucher-sidea > .vc_column-inner > .wpb_wrapper {
+    background:linear-gradient(65deg, rgb(129,163,207) 0%, rgb(142,204,185) 79.29936305732484%);
+}
+
+
+.voucher-sideb > .vc_column-inner > .wpb_wrapper, .voucher-sidea > .vc_column-inner > .wpb_wrapper {
+    border-radius: 20px;
+}
+
+.voucher-sideb > .vc_column-inner > .wpb_wrapper > .wpb_wrapper-inner {
+    background-color: #fff !important;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.downloadvoucherbtn {}
+.levantarkit {}
+
+.vouchernumber h6 {
+    margin-left: 20px;
+    font-size: 35px;
+    color: #fff;
+    text-align:center;
+}
+
+.vouchervalidatecontent ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.vouchervalidatecontent ul li a {
+    font-weight: 900;
+    padding: 10px;
+    color:#fff;
+    background-color:#8eccb9;
+}
+
+.vouchervalidatecontent ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.vouchervalidatecontent h2 {
+    font-weight: 700;
+}
+
+.downloadvoucherbtn.btn-icon-solid .btn-icon{
+	background:rgb(142, 204, 185);
+}
+.downloadvoucherbtn.btn-icon-circle.btn-icon-ripple .btn-icon:before{
+	border-color:rgb(142, 204, 185);
+}
+.downloadvoucherbtn{
+	background-color:rgb(142, 204, 185);
+	border-color:rgb(142, 204, 185);
+}
+.downloadvoucherbtn .btn-gradient-border defs stop:first-child{
+	stop-color:rgb(142, 204, 185);
+}
+.downloadvoucherbtn .btn-gradient-border defs stop:last-child{
+	stop-color:rgb(142, 204, 185);
+}
+
+.voucherpickup {
+    font-size:40px;
+    font-weight:700;
+    display:block;
+    color:#fff;
+}
+
+.vouchernumber, .voucherqrcontainer {
+    margin:20px;
+}
+
+input.voucherbtn {
+    width: 25%;
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 27px;
+    height: 100%;
+}
+
+.voucherbtnativo {
+    background-color:#8ECCB9;
+}
+
+.voucherbtninativo {
+    background-color:#F2B700;
+}
+
+.voucherbtnusado {
+        background-color:#EC665B;
+}
+
+
+
+/* responsive voucher */
+@media (max-width: 400px) {
+    .voucherbtnscontainer a .btn-icon{
+         display:none;
+    }
+     input.voucherbtn {
+        width: 25%;
+        margin-left: 10px;
+        display: inline-block;
+        font-weight: 800;
+        font-size: 16px;
+        height: 100%;
+    }
+ }
+
+@media (max-width: 767px) {
+    input.voucherbtn {
+        width: 25%;
+        margin-left: 10px;
+        display: inline-block;
+        font-weight: 800;
+        font-size: 19px;
+        height: 100%;
+    }
+    .voucher-sidea, .voucher-sideb {
+        margin-bottom:30px;
+    }
+    .voucherbtnscontainer {
+        text-align:center;
+    }
+    .voucherbtnscontainer a{
+        margin-bottom:15px;
+        text-align:center;
+    }
+
+    .vouchertext h1 {
+        font-size:40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .voucherbtnscontainer {
+        text-align:center;
+    }
+    .voucherbtnscontainer a{
+        margin-bottom:15px;
+        text-align:center;
+    }
+
+}

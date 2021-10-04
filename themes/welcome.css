@@ -1,0 +1,97 @@
+/*
+Theme Name: Welcome 2020
+Theme URI: http://www.up.pt/
+Description: Theme for PDF output of Vouchers
+Version: 0.0.1
+Author: Pedro Candeias
+Author URI: http://www.up.pt/
+Edit Author: Pedro Candeias for wp-mpdf
+*/
+
+body {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Free Sans';
+  font-weight: 400;
+  line-height: 1.9;
+  font-size: 14px;
+  color: #262626;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+}
+section.vouchersection{
+	width:100%;
+	display:block;
+	float:left;
+	margin:0 auto;
+	border:1px solid #fff;
+}
+
+.voucher-sidea {
+	margin-right:4%;
+	width:60%;
+	float:left;
+}
+
+.voucher-sideb {
+	width:35%;
+	float:right;
+	text-align:center;
+}
+
+.vouchersection {
+    margin-bottom:50px;
+}
+
+.kitimage {
+	width:100%;
+	display:block;
+	text-align:center;
+	margin-top:100px !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.vouchernumber, .vouchercontenttext {
+    margin-top:10px;
+		margin-left:100px;
+}
+
+.vouchernumber {
+width:100%;
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.vouchernumber h1 {
+    font-weight: bold;
+    font-size: 43px;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+		text-align:left;
+		letter-spacing:-3px !important;
+		margin-bottom:0;
+		text-align:center;
+}
+
+.vouchernumber h6 {
+    padding: 0 !important;
+    font-size: 20px;
+		font-weight:bold;
+		text-align:left;
+}
